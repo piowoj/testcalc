@@ -5,7 +5,7 @@ package pl.gov.coi.example.calc;
  * @since 17.11.16
  */
 public class Calc {
-
+    // Test
     public int add(int a, int b) {
         if (a > 6) {
             return (-2 * a) + b;
