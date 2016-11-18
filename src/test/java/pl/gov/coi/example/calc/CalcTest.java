@@ -22,5 +22,18 @@ public class CalcTest {
         // then
         assertEquals(9, result);
     }
+    @Test
+    public void testAdd_AMoreThen6() {
+        // given
+        int a = 7;
+        int b = 4;
+        Calc calc = new Calc();
+
+        // when
+        int result = calc.add(a, b);
+
+        // then
+        assertEquals(-10, result);
+    }
 
 }
